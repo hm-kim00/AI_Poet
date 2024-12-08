@@ -5,6 +5,9 @@
 #subject = "AI"
 #result=chat_model.invoke(subject +"에 대한 시를 써줘")
 #print(result.content)
+import openai
+
+openai.api_key = 'sk-klsadjlkjajsd asd.....asdkj;ljsad'
 
 from langchain_openai import ChatOpenAI
 chat_model = ChatOpenAI()
